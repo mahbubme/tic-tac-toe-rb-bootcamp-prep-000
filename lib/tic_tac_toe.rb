@@ -79,6 +79,7 @@ end
 
 def play( board )
   counter = 0
+  
   while counter < 9
     break if over?(board)
     turn(board)
